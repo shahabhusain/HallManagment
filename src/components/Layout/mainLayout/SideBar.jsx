@@ -15,6 +15,9 @@ const SideBar = () => {
         <Link className=" py-2 px-5 hover:text-black hover:bg-white text-white" to="owner">
           Owner
         </Link>
+        <Link className=" py-2 px-5 hover:text-black hover:bg-white text-white" to="hotellist">
+          Hotels
+        </Link>
       </ul>
     </div>
   );

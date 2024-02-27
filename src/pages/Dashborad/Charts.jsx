@@ -84,7 +84,7 @@ const data = [
 ];
 
   return (
-    <div className='  h-[350px] w-[600px]'>
+    <div className='  h-[450px] w-[800px]'>
       <h1 className=' text-[20px] font-bold mx-auto'>Yearly Users</h1>
         <ResponsiveContainer width="100%" height="100%">
         <BarChart

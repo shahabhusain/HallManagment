@@ -5,7 +5,7 @@ import LineCharts from "./LineCharts";
 import PieChart12 from "./PieChart12";
 const Dashboard = () => {
   return (
-    <div className=" ml-60 mx-12">
+    <div className=" ml-60 mx-12 w-[100%]">
       <h1 className=" text-[22px] font-bold mt-5">Dashboard</h1>
       <div className=" grid grid-cols-3 gap-11 mt-8">
         <div className=" bg-[#F39D12] py-6 pl-6 pr-32 rounded-md">
@@ -44,7 +44,7 @@ const Dashboard = () => {
           </div>
         </div>
       </div>
-      <div className=" flex  justify-between mt-12">
+      <div className=" flex  gap-12 mt-12">
         <Charts />
         <div>
           <LineCharts />

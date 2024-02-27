@@ -125,3 +125,10 @@ td, th {
   padding-left: 22px;
   padding-right: 32px;
 }
+
+.in{
+    padding: 12px;
+    background: #f3e2c6;
+    border-radius: 5px;
+    
+}
